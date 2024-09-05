@@ -1,0 +1,59 @@
+.parallax {
+    background-image: url("../../public/images/background.jpeg");
+    min-height: 750px;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax__overlay {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    padding-top: 10%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.parallax__overlay h1 {
+    font-size: 96px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.parallax__overlay h4 {
+    font-style: italic;
+}
+
+.parallax__overlay button {
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border: none;
+    text-decoration: underline;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.parallax__overlay button:hover {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6F732F;
+}
+
+.about {
+    margin: 20px;
+}
+
+.about p {
+    padding: 5px 15%;
+}
