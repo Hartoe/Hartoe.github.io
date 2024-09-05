@@ -8,6 +8,7 @@
 
 .hover-image__image {
     display: block;
+    border-radius: 5px;
 }
 
 .hover-image__overlay {
@@ -18,14 +19,23 @@
     transition: all 0.5s;
     overflow: hidden;
     height: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(38, 54, 39, 0.5);
     color: white;
     text-align: center;
     font-size: 24px;
+    border-radius: 5px;
 }
 
 .hover-image:hover .hover-image__overlay,
 .hover-image__overlay:hover {
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(38, 54, 39, 0.5);
+}
+
+@media only screen and (max-width: 800px) {
+    .hover-image .hover-image__overlay,
+.hover-image__overlay {
+    height: 100%;
+    background: rgba(38, 54, 39, 0.5);
+}
 }
