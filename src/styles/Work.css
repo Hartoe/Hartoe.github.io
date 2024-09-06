@@ -1,0 +1,18 @@
+.work {
+    display: inline-block;  
+    width: 35%;
+    text-align: left;
+    background-color: #264027;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.work__title {
+    margin: 0;
+}
+
+.work__job {
+    margin: 0;
+    font-style: italic;
+}

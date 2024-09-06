@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import HoverImage from "../components/HoverImage";
 import StarRating from "../components/StarRating";
 import {Link} from 'react-router-dom';
-import "../styles/Homepage.css";
+import "../styles/pages/Homepage.css";
 
 export default function Homepage() {
 
@@ -44,7 +44,7 @@ export default function Homepage() {
                         hover={<>
                             <h3>Programming</h3>
                             <p>
-                                From websites to game jams, with some conlang tools thrown in between.
+                                Websites, games, and jams!
                             </p>
                         </>}
                     /></Link>
@@ -109,13 +109,20 @@ export default function Homepage() {
                                 <li><b>C#</b><StarRating rate='3' /></li>
                                 <li><b>.NET Framework</b><StarRating rate='3' /></li>
                                 <li><b>Python</b><StarRating rate='3' /></li>
-                                <li><b>JavaScript</b><StarRating rate='2' /></li>
-                                <li><b>React</b><StarRating rate='2' /></li>
+                                <li><b>JavaScript</b><StarRating rate='3' /></li>
+                                <li><b>React</b><StarRating rate='3' /></li>
+                                <li><b>CSS</b><StarRating rate='3' /></li>
+                                <li><b>HTML</b><StarRating rate='3' /></li>
                                 <li><b>C++</b><StarRating rate='2' /></li>
                                 <li><b>Haskell</b><StarRating rate='1' /></li>
                             </div>
                         </div>
                     </div>
+                </div>
+                <hr/>
+                <div className='contact'>
+                    <h1 className='main__title contact__title'>Interested?</h1>
+                    <Link to="Contact" className='contact__button'>Contact Me</Link>
                 </div>
             </main>
             <Footer />

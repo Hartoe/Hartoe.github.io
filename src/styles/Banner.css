@@ -1,0 +1,31 @@
+.banner {
+    min-height: 300px;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 2%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+    .banner__title {
+        font-size: 48px;
+    }
+
+    .banner {
+        min-height: 200px;
+    }
+}

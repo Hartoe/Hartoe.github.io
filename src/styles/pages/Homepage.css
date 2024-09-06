@@ -1,0 +1,144 @@
+.parallax {
+    background-image: url("../../../public/images/background.jpeg");
+    min-height: 750px;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax__overlay {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    padding-top: 10%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.parallax__overlay h1 {
+    font-size: 96px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.parallax__overlay h4 {
+    font-style: italic;
+}
+
+.parallax__overlay button {
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border: none;
+    text-decoration: underline;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.parallax__overlay button:hover {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6F732F;
+}
+
+.main__sub {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.about {
+    margin: 20px;
+}
+
+.about p {
+    padding: 5px 10%;
+}
+
+hr {
+    margin: 20px 15%;
+    border-color: #264027;
+    border-width: 2px;
+}
+
+.cv {
+    padding-bottom: 20px;
+}
+
+.cv__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cv__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+
+.cv__sidebar li {
+    list-style-type: none;
+}
+
+.cv__education__item {
+    text-align: left;
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: #264027;
+    border-radius: 3px;
+}
+
+.cv__education__item span {
+    display: block;
+}
+
+.cv__education__item h4 {
+    margin: 5px;
+}
+
+.education__date {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.star-rating {
+    float: right;
+}
+
+.contact {
+    padding-bottom: 50px;
+}
+
+.contact__title {
+    margin-bottom: 50px;
+}
+
+.contact__button {
+    padding: 20px;
+    background-color: #264027;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: all 0.2s;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.contact__button:hover {
+    color: black;
+    background-color: #6F732F;
+    padding: 25px;
+    box-shadow: 4px 4px 20px black;
+}
