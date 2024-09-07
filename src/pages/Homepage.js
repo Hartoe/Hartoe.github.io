@@ -24,7 +24,7 @@ export default function Homepage() {
                     actor.</h4>
                     <p className='about__blurb'>
                         Ever since I was a child, I was interested in the experiences that stories and games could bring us.
-                        Because of this, I quickly started working to make my stories. That is when I found my love for programming.
+                        Because of this, I quickly started working to make my own stories. That is when I found my love for programming.
                         An endless puzzle with countless solution, in which you can always improve and optimize <span style={{fontStyle: "italic"}}>something</span>.
                         My enthusiasm and passion for programming has only grown since I started at twelve. I am a driven and
                         solution oriented programmer, who isn't afraid to think out of the box. I love approaching a problem

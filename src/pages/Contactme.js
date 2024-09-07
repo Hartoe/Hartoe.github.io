@@ -10,6 +10,9 @@ import emailjs from "@emailjs/browser";
 import Phone from "../components/Phone";
 import Email from "../components/Email";
 
+import { ToastContainer, toast } from "react-toastify";
+import "../styles/Toast.css";
+
 export default function ContactMe() {
     const form = useRef();
 
@@ -20,8 +23,33 @@ export default function ContactMe() {
             publicKey: "8-2Cw9NBSBiVA9ON5",
         }).then(() => {
             console.log("Email Sent.");
+            toast.success('✅ Email Sent!', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+
+            let tags = document.querySelectorAll(".form__input-bar, .form__text");
+            for (let i = 0; i < tags.length; i++) {
+                tags[i].value = '';
+            }
         }, (error) => {
             console.log("Error:", error);
+            toast.error('❌ Something went wrong!', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
         });
     };
 
@@ -85,7 +113,10 @@ export default function ContactMe() {
                 </a>
             </div>
         </main>
-        <Footer />         
+        <ToastContainer
+            theme="colored"
+        />
+        <Footer />
     </>
     );
 }

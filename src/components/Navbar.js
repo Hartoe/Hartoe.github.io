@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faComputer, faFeather, faMusic, faEnvelope, faM } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faComputer, faFeather, faMusic, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import "../styles/Navbar.css";
 import {Link} from 'react-router-dom';
 
