@@ -13,3 +13,16 @@ main {
     text-align: center;
     margin: 0;
 }
+
+.outer {
+    margin: 0;
+}
+
+.section {
+    padding: 20px;
+}
+
+.no-decoration {
+    color: white;
+    text-decoration: none;
+}

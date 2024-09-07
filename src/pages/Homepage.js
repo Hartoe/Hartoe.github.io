@@ -20,8 +20,8 @@ export default function Homepage() {
                 </div>
                 <div className="about" id="about-me">
                     <h1 className='main__title'>About Me</h1>
-                    <h4 className='main__sub'>Creative and diligent student, efficient and competent programmer, and enthusiastic and fun
-                    teammate.</h4>
+                    <h4 className='main__sub'>23 year old student, efficient and competent programmer, and enthusiastic and fun
+                    actor.</h4>
                     <p className='about__blurb'>
                         Ever since I was a child, I was interested in the experiences that stories and games could bring us.
                         Because of this, I quickly started working to make my stories. That is when I found my love for programming.
@@ -38,7 +38,7 @@ export default function Homepage() {
                 <div className="hovers">
                     <h1 className="main__title">What I Do</h1>
                     <h4 className="main__sub">Click to read more about my projects and experiences.</h4>
-                    <Link to="Programming"><HoverImage
+                    <Link to="Programming" onClick={() => window.scrollTo(0,0)}><HoverImage
                         src="/images/programming.png"
                         alt="Programming"
                         hover={<>
@@ -48,7 +48,7 @@ export default function Homepage() {
                             </p>
                         </>}
                     /></Link>
-                    <Link to="Performing"><HoverImage
+                    <Link to="Performing" onClick={() => window.scrollTo(0,0)}><HoverImage
                         src="/images/performing.png"
                         alt="Performing"
                         hover={<>
@@ -58,7 +58,7 @@ export default function Homepage() {
                             </p>
                         </>}
                     /></Link>
-                    <Link to="Writing"><HoverImage
+                    <Link to="Writing" onClick={() => window.scrollTo(0,0)}><HoverImage
                         src="/images/writing.png"
                         alt="Writing"
                         hover={<>
@@ -122,7 +122,7 @@ export default function Homepage() {
                 <hr/>
                 <div className='contact'>
                     <h1 className='main__title contact__title'>Interested?</h1>
-                    <Link to="Contact" className='contact__button'>Contact Me</Link>
+                    <Link to="Contact" onClick={() => window.scrollTo(0,0)}className='contact__button'>Contact Me</Link>
                 </div>
             </main>
             <Footer />

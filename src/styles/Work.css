@@ -9,10 +9,22 @@
 }
 
 .work__title {
-    margin: 0;
+    margin: 5px;
 }
 
 .work__job {
-    margin: 0;
+    margin: 0 5px;
     font-style: italic;
+    font-weight: 300;
+}
+
+.work__desc {
+    margin: 0 5px 5px 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .work {
+        width: 70%;
+        font-size: 14px;
+    }
 }

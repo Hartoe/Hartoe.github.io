@@ -1,6 +1,5 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import Homepage from './pages/Homepage';
-import Navbar from './components/Navbar';
 import Programming from './pages/Programming';
 import Performing from './pages/Performing';
 import Writing from './pages/Writing';

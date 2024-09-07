@@ -4,9 +4,7 @@ import Banner from "../components/Banner";
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import '../styles/pages/Programming.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import '../styles/Carousel.css';
 import Work from "../components/Work";
 
 export default function Programming() {
@@ -18,7 +16,7 @@ export default function Programming() {
             title='Programming'   
         />
         <main>
-            <div className='showcase'>
+            <div className='section outer'>
                 <h1 className='main__title'>Showcase</h1>
                 <h4 className='main__sub'>Get a taste of my projects with the following showcase!</h4>
                 <Carousel slide prevLabel='' nextLabel=''>
@@ -28,15 +26,6 @@ export default function Programming() {
                             <Carousel.Caption>
                                 <h3>Assimilate!</h3>
                                 <p>Each cell you touch sticks to you! Can you assimilate all enemies before they get to you?</p>
-                            </Carousel.Caption>
-                        </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <a href="https://hartoehajek.itch.io/dont-be-orange" target="blank">
-                            <img className='carousel-image' src="/images/programming/carousel_2.png"/>
-                            <Carousel.Caption>
-                                <h3>Don't Be Orange</h3>
-                                <p>There is only one rule: <it>do not</it> become orange!</p>
                             </Carousel.Caption>
                         </a>
                     </Carousel.Item>
@@ -61,27 +50,79 @@ export default function Programming() {
                 </Carousel>
             </div>
             <hr/>
-            <div className='worklist'>
+            <div className='section'>
                 <h1 className='main__title'>Previous Work</h1>
                 <h4 className='main__sub'>Jobs and projects I've worked on before.</h4>
-                <Work title="Saffron" job="Security Consultant" />
-                <Work title="Ashira Creations" job="Website Development" />
-                <Work title="TeamMeUp" job="Software Development" />
+                <Work
+                    title="Saffron"
+                    job="2021 - 2022, Security Consultant"
+                    desc="Facilitate the comunication between the development team and the financial and marketing team of a Pen Tester."
+                />
+                <Work
+                    title="TeamMeUp"
+                    job="2023, Software Development"
+                    desc="Help develop a prototype for a smart tool for grouping people for a professor at Utrecht University."
+                />
+                <Work
+                    title="Ashira Creations"
+                    job="2024, Website Development"
+                    desc="Design and develop a website for Ashira Creations."
+                />
             </div>
             <hr/>
-            <div className='projects'>
+            <div className='section outer'>
                 <h1 className="main__title">Personal Projects</h1>
                 <h4 className='main__sub'>Things I made for fun and training.</h4>
-                <Work title='Assimilate!' job='Game Jam' />
-                <Work title="Bat Zap" job='Game Jam' />
-                <Work title="Don't Be Orange" job='Game' />
-                <Work title='Home Sweet Home' job='Game Jam' />
-                <Work title="My little puzzle game" job='Game Jam' />
-                <Work title='SokoBeat' job='Game' />
-                <Work title='Solo Shift' job='Game Jam' />
-                <Work title='Space Commander' job='Game Jam' />
-                <Work title='Time Heist' job='Game Jam' />
-                <Work title='Wacky Herbalist' job='Game Jam' />
+                <Work
+                    title="Bat Zap"
+                    job='2019, Game Jam'
+                    desc="On-rails FPS with classical wolfenstein graphics. Made for the Skilldev Jam."
+                />
+                <Work
+                    title="Don't Be Orange"
+                    job='2020, Game'
+                    desc="Arcade bullet hell game where you have to dodge the red particles slowly making your yellow player orange."
+                />
+                <Work
+                    title='Solo Shift'
+                    job='2020, Game Jam'
+                    desc="Frantic 'Overcooked' style game where you have to take care of more and more patients. Made for the 6th Extra Credits Jam"
+                />
+                <Work
+                    title='Time Heist'
+                    job='2020, Game Jam'
+                    desc='Time looping topdown shooter where you have to perfect your speedrun. Made for VimJam: Collectables.'
+                />
+                <Work
+                    title='Assimilate!'
+                    job='2021, Game Jam'
+                    desc="Bullet hell where you can touch enemies to assimilate them, if you can get close enough... Made for the 18th CurdleJam."
+                />
+                <Work
+                    title='Home Sweet Home'
+                    job='2021, Game Jam'
+                    desc="Text-based horror adventure game. Can you figure out what happened last night? Made for the 2nd Text Only Jam."
+                />
+                <Work
+                    title="My little puzzle game"
+                    job='2021, Game Jam'
+                    desc="Just your average puzzle game...except that corporate keeps changing the scope of the game! Made for VimJam: Boss."
+                />
+                <Work
+                    title='SokoBeat'
+                    job='2021, Game'
+                    desc="A rhythmic take on the classic Sokoban puzzle game. Think on your feet, cause they move on the beat!"
+                />
+                <Work
+                    title='Space Commander'
+                    job='2021, Game Jam'
+                    desc="A resource manager where each choice has unforseen concequences down the line. Made for the HKU Jam: Instant Regret."
+                />
+                <Work
+                    title='Wacky Herbalist'
+                    job='2021, Game Jam'
+                    desc='An arcade game where you use randomly generated plants to brew potions. Made for the HKU Jam: The Unknown.'
+                />
             </div>
         </main>
         <Footer />
