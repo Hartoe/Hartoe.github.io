@@ -89,6 +89,7 @@ export default function Writing() {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <hr/>
             <div className="section">
                 <h1 className='main__title'>Personal Projects</h1>
                 <h4 className='main__sub'>What I'm currently writing on</h4>
