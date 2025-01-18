@@ -57,6 +57,11 @@ export default function Performing() {
                     job="2024, Children Entertainment"
                     desc="Playing the role of Ollie the pirate at multiple public occasions for childrens entertainment."
                 />
+                <Work
+                    title="Theatergroup Pardon"
+                    job="2025, Theatre Show"
+                    desc="Playing the role of Leonardo, the husband of Giulia Tofana, in the show Zonder Pardon."
+                />
             </div>
         </main>
         <Footer />         

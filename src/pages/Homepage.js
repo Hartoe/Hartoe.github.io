@@ -20,7 +20,7 @@ export default function Homepage() {
                 </div>
                 <div className="about" id="about-me">
                     <h1 className='main__title'>About Me</h1>
-                    <h4 className='main__sub'>23 year old student, efficient and competent programmer, and enthusiastic and fun
+                    <h4 className='main__sub'>24 year old student, efficient and competent programmer, and enthusiastic and fun
                     actor.</h4>
                     <p className='about__blurb'>
                         Ever since I was a child, I was interested in the experiences that stories and games could bring us.
@@ -54,7 +54,7 @@ export default function Homepage() {
                         hover={<>
                             <h3>Performing</h3>
                             <p>
-                                Wanna see what I've done on stage before? Come see the many faces I have put on!
+                                Wanna see what I've done on stage before? Check out the many faces I have put on!
                             </p>
                         </>}
                     /></Link>
@@ -107,14 +107,19 @@ export default function Homepage() {
                             <div className='cv__programming'>
                                 <h2>Programming Experience</h2>
                                 <li><b>C#</b><StarRating rate='3' /></li>
-                                <li><b>.NET Framework</b><StarRating rate='3' /></li>
                                 <li><b>Python</b><StarRating rate='3' /></li>
                                 <li><b>JavaScript</b><StarRating rate='3' /></li>
                                 <li><b>React</b><StarRating rate='3' /></li>
                                 <li><b>CSS</b><StarRating rate='3' /></li>
                                 <li><b>HTML</b><StarRating rate='3' /></li>
-                                <li><b>C++</b><StarRating rate='2' /></li>
+                                <li><b>C++</b><StarRating rate='3' /></li>
                                 <li><b>Haskell</b><StarRating rate='1' /></li>
+                                <h2>Framework Experience</h2>
+                                <li><b>.NET</b><StarRating rate='3' /></li>
+                                <li><b>Unity</b><StarRating rate='3' /></li>
+                                <li><b>Monogame</b><StarRating rate='3' /></li>
+                                <li><b>OpenGL</b><StarRating rate='2' /></li>
+                                <li><b>Pygame</b><StarRating rate='1' /></li>
                             </div>
                         </div>
                     </div>

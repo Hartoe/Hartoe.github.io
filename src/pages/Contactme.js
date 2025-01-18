@@ -80,7 +80,7 @@ export default function ContactMe() {
                     <div className='contact-me__info'>
                         <h2>Personal Information</h2>
                         <li>Artur Salek (He/Him)</li>
-                        <li>23 years old</li>
+                        <li>24 years old</li>
                         <li><Phone /></li>
                         <li><Email /></li>
                     </div>
